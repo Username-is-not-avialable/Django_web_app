@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def recent_page(request):
+    return render(request, 'recent_vacancies/recent_vacancies.html')
