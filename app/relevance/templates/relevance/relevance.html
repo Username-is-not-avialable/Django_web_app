@@ -2,4 +2,18 @@
 
 {% block content%}
 <h1>Востребованность</h1>
+
+<h2>Количество вакансий по годам</h2>
+{% include './table.html' with values=vacancies_count %}
+
+<h2>Количество вакансий 1С по годам</h2>
+{% include './table.html' with values=1C_vacancies_count %}
+
+<h2>Зарплаты по годам (руб)</h2>
+{% include './table.html' with values=vacancies_salaries %}
+
+<h2>Зарплаты 1С по годам (руб)</h2>
+{% include './table.html' with values=1C_vacancies_salaries %}
+
+
 {% endblock %}
