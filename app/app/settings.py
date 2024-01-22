@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-&t%f-u9^ln6*zh-9jlu-28jkj=#&kcwysm+htj6(w8vy=%%y_m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mintycake.pythonanywhere.com']
+ALLOWED_HOSTS = ['mintycake.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
